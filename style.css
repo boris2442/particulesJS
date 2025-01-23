@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100vw;
+    cursor: crosshair;
+    overflow-x: hidden;
+    height: 100vh;
+   
+}
+
+    #particule-div {
+        width: 100%;
+        z-index: 20;
+        height: 100vh; /* Ajuste cette valeur selon tes besoins */
+        position: relative;
+        background-color: #333; /* Ajoute une couleur de fond pour mieux voir les particules */
+     
+  }
+  p{
+    color:red;
+    z-index: -1;
+  }

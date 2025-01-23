@@ -1,0 +1,18 @@
+{
+    "particles": {
+      "number": {
+        "value": 50
+      },
+      "size": {
+        "value": 5
+      },
+      "move": {
+        "enable": true,
+        "speed": 3
+      },
+      "color": {
+        "value": "#ffffff" 
+      }
+    }
+  }
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ParticulesJs</title>
+   
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="navbar"><span>particule.js</span></div>
+    <div id="wrapper">
+      <div id="particule-div">
+      
+      </div>
+      <button id="particule-button">start</button>
+    </div>
+
+    <script>
+    $(document).ready(function () {
+  console.log("Page is ready.");
+  
+  // Lancement de particles.js au clic du bouton
+  $("#particule-button").click(function () {
+    particlesJS.load("particule-div", "particule.json", function () {
+      console.log("Particles.js has been loaded.");
+    });
+  });
+});
+
+    </script>
+  </body>
+</html>
+</html>
